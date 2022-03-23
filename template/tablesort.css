@@ -1,0 +1,22 @@
+.table-striped th {
+    cursor: pointer;
+  }
+  
+  .table-striped .th-sort-asc::after {
+    content: "\25b4";
+  }
+  
+  .table-striped .th-sort-desc::after {
+    content: "\25be";
+  }
+  
+  .table-striped .th-sort-asc::after,
+  .table-striped .th-sort-desc::after {
+    margin-left: 5px;
+  }
+  
+  .table-striped .th-sort-asc,
+  .table-striped .th-sort-desc {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
